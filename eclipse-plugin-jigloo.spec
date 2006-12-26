@@ -1,4 +1,5 @@
 Summary:	GUI builder plugin for Eclipse
+Summary(pl):	Wtyczka dla Eclipse do tworzenia GUI
 Name:		eclipse-plugin-jigloo
 Version:	3.9.5
 Release:	1
@@ -9,7 +10,6 @@ Source0:	http://cloudgarden1.com/jigloo_395.zip
 URL:		http://www.cloudgarden.com/jigloo/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_eclipsedir  	%{_libdir}/eclipse
@@ -18,6 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Jigloo GUI Builder is a plugin for the Eclipse Java IDE and WebSphere
 Studio, which allows you to build and manage both Swing and SWT GUI
 classes.
+
+%description -l pl
+Jigloo GUI Builder to wtyczka dla Eclipse Java IDE i WebSphere Studio,
+pozwalaj±ca tworzyæ i zarz±dzaæ klasami GUI korzystaj±cymi ze Swinga i
+SWT.
 
 %prep
 %setup -q -c
