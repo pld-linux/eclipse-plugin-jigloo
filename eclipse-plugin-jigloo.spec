@@ -1,5 +1,5 @@
 Summary:	GUI builder plugin for Eclipse
-Summary(pl.UTF-8):   Wtyczka dla Eclipse do tworzenia GUI
+Summary(pl.UTF-8):	Wtyczka dla Eclipse do tworzenia GUI
 Name:		eclipse-plugin-jigloo
 Version:	3.9.5
 Release:	1
