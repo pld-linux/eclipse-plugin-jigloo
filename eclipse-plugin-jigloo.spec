@@ -1,12 +1,12 @@
 Summary:	GUI builder plugin for Eclipse
 Summary(pl.UTF-8):	Wtyczka dla Eclipse do tworzenia GUI
 Name:		eclipse-plugin-jigloo
-Version:	3.9.5
+Version:	4.4.4
 Release:	1
 License:	Free
 Group:		Development/Languages
-Source0:	http://cloudgarden1.com/jigloo_395.zip
-# Source0-md5:	339ee1024056913d04ec84040ad9efc8
+Source0:	http://cloudgarden1.com/jigloo_444.zip
+# Source0-md5:	cfbf228e12b33bcb15aae3c2b0cb2ab7
 URL:		http://www.cloudgarden.com/jigloo/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
